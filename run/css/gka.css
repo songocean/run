@@ -1,0 +1,174 @@
+.gka-base {
+    width: 7.50rem;
+    height: 13.34rem;
+    background-size: 75rem 66.7rem;
+
+    animation-timing-function: steps(1);
+    animation-iteration-count: infinite;
+
+    background-repeat: no-repeat;
+
+    animation-fill-mode: forwards;
+
+    /* Play once*/
+    /* animation-iteration-count: 1; */
+}
+
+.animation {
+    animation-name: keyframes;
+    animation-duration: 1.96s;
+}
+
+@-webkit-keyframes keyframes {
+    0% {
+        background-image: url("../images/run/sprites.png");
+        background-position: -7.50rem 0;
+    }
+    2.04% {
+        background-position: 0 -40.02rem;
+    }
+    4.08% {
+        background-position: -15.00rem 0;
+    }
+    6.12% {
+        background-position: -22.50rem 0;
+    }
+    8.16% {
+        background-position: 0 -13.34rem;
+    }
+    10.20% {
+        background-position: -7.50rem -13.34rem;
+    }
+    12.24% {
+        background-position: -15.00rem -13.34rem;
+    }
+    14.29% {
+        background-position: -22.50rem -13.34rem;
+    }
+    16.33% {
+        background-position: -30.00rem 0;
+    }
+    18.37% {
+        background-position: -30.00rem -13.34rem;
+    }
+    20.41% {
+        background-position: -37.50rem 0;
+    }
+    22.45% {
+        background-position: -37.50rem -13.34rem;
+    }
+    24.49% {
+        background-position: 0 -26.68rem;
+    }
+    26.53% {
+        background-position: -7.50rem -26.68rem;
+    }
+    28.57% {
+        background-position: -15.00rem -26.68rem;
+    }
+    30.61% {
+        background-position: -22.50rem -26.68rem;
+    }
+    32.65% {
+        background-position: -30.00rem -26.68rem;
+    }
+    34.69% {
+        background-position: -37.50rem -26.68rem;
+    }
+    36.73% {
+        background-position: -45.00rem 0;
+    }
+    38.78% {
+        background-position: -45.00rem -13.34rem;
+    }
+    40.82% {
+        background-position: -45.00rem -26.68rem;
+    }
+    42.86% {
+        background-position: -52.50rem 0;
+    }
+    44.90% {
+        background-position: -52.50rem -13.34rem;
+    }
+    46.94% {
+        background-position: -52.50rem -26.68rem;
+    }
+    48.98% {
+        background-position: 0 0;
+    }
+    51.02% {
+        background-position: -7.50rem -40.02rem;
+    }
+    53.06% {
+        background-position: -15.00rem -40.02rem;
+    }
+    55.10% {
+        background-position: -22.50rem -40.02rem;
+    }
+    57.14% {
+        background-position: -30.00rem -40.02rem;
+    }
+    59.18% {
+        background-position: -37.50rem -40.02rem;
+    }
+    61.22% {
+        background-position: -45.00rem -40.02rem;
+    }
+    63.27% {
+        background-position: -52.50rem -40.02rem;
+    }
+    65.31% {
+        background-position: -60.00rem 0;
+    }
+    67.35% {
+        background-position: -60.00rem -13.34rem;
+    }
+    69.39% {
+        background-position: -60.00rem -26.68rem;
+    }
+    71.43% {
+        background-position: -60.00rem -40.02rem;
+    }
+    73.47% {
+        background-position: 0 -53.36rem;
+    }
+    75.51% {
+        background-position: -7.50rem -53.36rem;
+    }
+    77.55% {
+        background-position: -15.00rem -53.36rem;
+    }
+    79.59% {
+        background-position: -22.50rem -53.36rem;
+    }
+    81.63% {
+        background-position: -30.00rem -53.36rem;
+    }
+    83.67% {
+        background-position: -37.50rem -53.36rem;
+    }
+    85.71% {
+        background-position: -45.00rem -53.36rem;
+    }
+    87.76% {
+        background-position: -52.50rem -53.36rem;
+    }
+    89.80% {
+        background-position: -60.00rem -53.36rem;
+    }
+    91.84% {
+        background-position: -67.50rem 0;
+    }
+    93.88% {
+        background-position: -67.50rem -13.34rem;
+    }
+    95.92% {
+        background-position: -67.50rem -26.68rem;
+    }
+    97.96% {
+        background-position: -67.50rem -40.02rem;
+    }
+    100% {
+        background-position: -67.50rem -40.02rem;
+    }
+}
